@@ -1,0 +1,1 @@
+function repeats1(r){for(var e=[],a=0;a<r.length;a++)-1==e.indexOf(r[a])&&e.push(r[a]);return e}function repeats(r){for(var e=[],a=0;a<r.length;a++){for(var n=a+1;n<r.length;n++)r[a]==r[n]&&(n=++a);e.push(r[a])}return e}var arrq=["1","2","1","3","5","2"];console.log(repeats1(arrq));var arr=["1","2","1","3","5","2"];console.log(repeats(arr));
